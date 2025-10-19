@@ -1,0 +1,3 @@
+import python
+import semmle.python.security.dataflow.XpathInjectionQuery
+import XpathInjectionFlow::PathGraph

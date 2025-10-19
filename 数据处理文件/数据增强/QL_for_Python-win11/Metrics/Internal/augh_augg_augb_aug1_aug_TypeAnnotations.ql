@@ -1,0 +1,117 @@
+/**
+ * @name Type metrics
+ * @description Computes metrics for Python type annotations across parameters, 
+ *              return types, and annotated assignments, categorizing them by 
+ *              complexity and usage patterns.
+ * @kind table
+ * @id py/type-metrics
+ */
+
+import python
+
+// Represents fundamental Python built-in types (e.g., int, str, bool)
+class BuiltinType extends Name {
+  BuiltinType() { this.getId() in ["int", "float", "str", "bool", "bytes", "None"] }
+}
+
+// Union type for elements supporting type annotations
+newtype TAnnotatable =
+  TAnnotatedFunction(FunctionExpr func) { exists(func.getReturns()) } or
+  TAnnotatedParameter(Parameter param) { exists(param.getAnnotation()) } or
+  TAnnotatedAssignment(AnnAssign stmt) { exists(stmt.getAnnotation()) }
+
+// Base class for elements with type annotations
+abstract class Annotatable extends TAnnotatable {
+  string toString() { result = "Annotatable" }
+  abstract Expr getAnnotation();
+}
+
+// Function expressions with return type annotations
+class AnnotatedFunction extends TAnnotatedFunction, Annotatable {
+  FunctionExpr func;
+
+  AnnotatedFunction() { this = TAnnotatedFunction(func) }
+  override Expr getAnnotation() { result = func.getReturns() }
+}
+
+// Parameters with type annotations
+class AnnotatedParameter extends TAnnotatedParameter, Annotatable {
+  Parameter param;
+
+  AnnotatedParameter() { this = TAnnotatedParameter(param) }
+  override Expr getAnnotation() { result = param.getAnnotation() }
+}
+
+// Assignment statements with type annotations
+class AnnotatedAssignment extends TAnnotatedAssignment, Annotatable {
+  AnnAssign assign;
+
+  AnnotatedAssignment() { this = TAnnotatedAssignment(assign) }
+  override Expr getAnnotation() { result = assign.getAnnotation() }
+}
+
+/** Detects forward-declared types (string literals) */
+predicate is_forward_declaration(Expr expr) { expr instanceof StringLiteral }
+
+/** Identifies complex types that may be challenging to analyze */
+predicate is_complex_type(Expr expr) {
+  (expr instanceof Subscript and not is_optional_type(expr)) or
+  expr instanceof Tuple or
+  expr instanceof List
+}
+
+/** Detects Optional[...] type patterns */
+predicate is_optional_type(Subscript expr) { expr.getObject().(Name).getId() = "Optional" }
+
+/** Identifies simple types (non-built-in identifiers or attribute chains) */
+predicate is_simple_type(Expr expr) {
+  (expr instanceof Name and not expr instanceof BuiltinType) or
+  is_simple_type(expr.(Attribute).getObject())
+}
+
+/** Detects built-in types */
+predicate is_builtin_type(Expr expr) { expr instanceof BuiltinType }
+
+// Computes type annotation metrics for different categories
+predicate type_annotation_metrics(
+  string category, int totalCount, int builtinCount, int forwardDeclCount, 
+  int simpleTypeCount, int complexTypeCount, int optionalTypeCount
+) {
+  // Parameter annotation metrics
+  category = "Parameter annotation" and
+  totalCount = count(AnnotatedParameter param) and
+  builtinCount = count(AnnotatedParameter param | is_builtin_type(param.getAnnotation())) and
+  forwardDeclCount = count(AnnotatedParameter param | is_forward_declaration(param.getAnnotation())) and
+  simpleTypeCount = count(AnnotatedParameter param | is_simple_type(param.getAnnotation())) and
+  complexTypeCount = count(AnnotatedParameter param | is_complex_type(param.getAnnotation())) and
+  optionalTypeCount = count(AnnotatedParameter param | is_optional_type(param.getAnnotation()))
+  or
+  // Return type annotation metrics
+  category = "Return type annotation" and
+  totalCount = count(AnnotatedFunction func) and
+  builtinCount = count(AnnotatedFunction func | is_builtin_type(func.getAnnotation())) and
+  forwardDeclCount = count(AnnotatedFunction func | is_forward_declaration(func.getAnnotation())) and
+  simpleTypeCount = count(AnnotatedFunction func | is_simple_type(func.getAnnotation())) and
+  complexTypeCount = count(AnnotatedFunction func | is_complex_type(func.getAnnotation())) and
+  optionalTypeCount = count(AnnotatedFunction func | is_optional_type(func.getAnnotation()))
+  or
+  // Annotated assignment metrics
+  category = "Annotated assignment" and
+  totalCount = count(AnnotatedAssignment assign) and
+  builtinCount = count(AnnotatedAssignment assign | is_builtin_type(assign.getAnnotation())) and
+  forwardDeclCount = count(AnnotatedAssignment assign | is_forward_declaration(assign.getAnnotation())) and
+  simpleTypeCount = count(AnnotatedAssignment assign | is_simple_type(assign.getAnnotation())) and
+  complexTypeCount = count(AnnotatedAssignment assign | is_complex_type(assign.getAnnotation())) and
+  optionalTypeCount = count(AnnotatedAssignment assign | is_optional_type(assign.getAnnotation()))
+}
+
+// Query execution and result projection
+from 
+  string category, int totalCount, int builtinCount, int forwardDeclCount, 
+  int simpleTypeCount, int complexTypeCount, int optionalTypeCount
+where 
+  type_annotation_metrics(category, totalCount, builtinCount, forwardDeclCount, 
+                         simpleTypeCount, complexTypeCount, optionalTypeCount)
+select 
+  category, totalCount, builtinCount, forwardDeclCount, 
+  simpleTypeCount, complexTypeCount, optionalTypeCount

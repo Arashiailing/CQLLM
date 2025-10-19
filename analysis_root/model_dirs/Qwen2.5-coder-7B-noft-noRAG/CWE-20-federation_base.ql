@@ -1,0 +1,3 @@
+import python
+import semmle.python.security.dataflow.CommandInjectionQuery
+import CommandInjectionFlow::PathGraph

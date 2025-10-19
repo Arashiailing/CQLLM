@@ -1,0 +1,1 @@
+import pythonimport semmle.python.security.dataflow.CleartextStorageQueryimport CleartextStorageFlow::PathGraphfrom CleartextStorageFlow::PathNode source, CleartextStorageFlow::PathNode sinkwhere CleartextStorageFlow::flowPath(source, sink)select sink.getNode(), source, sink, "Storing credentials in $@ exposes them to unauthorized access.", source.getNode(), "unsecured location"

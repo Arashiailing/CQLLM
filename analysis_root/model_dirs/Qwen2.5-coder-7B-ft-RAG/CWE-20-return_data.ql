@@ -1,0 +1,1 @@
+import pythonimport semmle.python.security.dataflow.SqlInjectionQueryimport SqlInjectionFlow::PathGraphfrom SqlInjectionFlow::PathNode source, SqlInjectionFlow::PathNode sinkwhere SqlInjectionFlow::flowPath(source, sink)select sink.getNode(), source, sink, "SQL query depends on a $@.", source.getNode(),  "user-provided value"

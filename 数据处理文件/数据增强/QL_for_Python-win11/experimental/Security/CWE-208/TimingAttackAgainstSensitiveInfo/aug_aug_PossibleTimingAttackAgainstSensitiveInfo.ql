@@ -1,0 +1,57 @@
+/**
+ * @name Timing attack against secret
+ * @description Identifies non-constant-time verification routines for secret values,
+ *              potentially enabling timing attacks that expose sensitive information.
+ * @kind path-problem
+ * @problem.severity error
+ * @precision low
+ * @id py/possible-timing-attack-sensitive-info
+ * @tags security
+ *       external/cwe/cwe-208
+ *       experimental
+ */
+
+// Import core Python language analysis modules
+import python
+// Import data flow analysis framework
+import semmle.python.dataflow.new.DataFlow
+// Import taint propagation capabilities
+import semmle.python.dataflow.new.TaintTracking
+// Import experimental timing attack detection utilities
+import experimental.semmle.python.security.TimingAttack
+
+/**
+ * Configuration for tracking data flow from secret origins to non-constant-time comparisons.
+ * This setup identifies potential timing attack vulnerabilities in code.
+ */
+private module SecretComparisonConfig implements DataFlow::ConfigSig {
+  // Define origins: nodes representing secret sources
+  predicate isSource(DataFlow::Node origin) { origin instanceof SecretSource }
+
+  // Define targets: nodes representing non-constant-time comparison operations
+  predicate isSink(DataFlow::Node target) { target instanceof NonConstantTimeComparisonSink }
+
+  // Enable differential observation mode for all scenarios
+  predicate observeDiffInformedIncrementalMode() { any() }
+}
+
+// Establish global taint tracking using the secret comparison configuration
+module SecretComparisonFlow = TaintTracking::Global<SecretComparisonConfig>;
+
+// Import path visualization module for flow paths
+import SecretComparisonFlow::PathGraph
+
+// Primary query to detect timing attack vulnerabilities
+from
+  SecretComparisonFlow::PathNode originNode,  // Origin of the secret data
+  SecretComparisonFlow::PathNode targetNode   // Target comparison operation
+where 
+  // Verify existence of flow path from secret origin to comparison target
+  SecretComparisonFlow::flowPath(originNode, targetNode)
+select 
+  targetNode.getNode(),    // Location where vulnerability manifests
+  originNode,              // Origin of the flow
+  targetNode,              // Termination point of the flow
+  "Timing attack against $@ verification.", // Security alert
+  originNode.getNode(),    // Reference point for alert
+  "client-provided secret" // Description of the sensitive source

@@ -1,0 +1,51 @@
+/**
+ * @name Remote Flow Source Reachability Analysis
+ * @description Identifies code nodes reachable through taint propagation from remote user input sources.
+ * @kind problem
+ * @problem.severity recommendation
+ * @id py/meta/alerts/remote-flow-sources-reach
+ * @tags meta
+ * @precision very-low
+ */
+
+// Core analysis framework imports
+private import python
+private import semmle.python.dataflow.new.DataFlow
+private import semmle.python.dataflow.new.TaintTracking
+private import semmle.python.dataflow.new.RemoteFlowSources
+private import meta.MetaMetrics
+private import semmle.python.dataflow.new.internal.PrintNode
+
+/**
+ * Taint tracking configuration for remote flow source analysis.
+ * Defines source and sink criteria while excluding ignored files.
+ */
+module RemoteFlowSourceReachConfig implements DataFlow::ConfigSig {
+  /**
+   * Identifies valid remote flow sources.
+   * Excludes sources located in ignored files.
+   */
+  predicate isSource(DataFlow::Node sourceNode) {
+    sourceNode instanceof RemoteFlowSource and
+    not sourceNode.getLocation().getFile() instanceof IgnoredFile
+  }
+
+  /**
+   * Identifies valid sink nodes using broad coverage criteria.
+   * Excludes sinks located in ignored files.
+   */
+  predicate isSink(DataFlow::Node sinkNode) {
+    not sinkNode.getLocation().getFile() instanceof IgnoredFile
+  }
+}
+
+// Global taint tracking analysis with the specified configuration
+module RemoteFlowTaintAnalysis = TaintTracking::Global<RemoteFlowSourceReachConfig>;
+
+/**
+ * Query execution: Finds nodes tainted by remote sources.
+ * Selects all nodes reachable via taint flow from remote input sources.
+ */
+from DataFlow::Node taintedNode
+where RemoteFlowTaintAnalysis::flow(_, taintedNode)
+select taintedNode, prettyNode(taintedNode)

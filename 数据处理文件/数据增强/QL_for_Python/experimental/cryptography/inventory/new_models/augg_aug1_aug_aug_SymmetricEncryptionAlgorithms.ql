@@ -1,0 +1,17 @@
+/**
+ * @name Quantum-Vulnerable Symmetric Encryption Detection
+ * @description Identifies symmetric encryption algorithm implementations in Python codebases
+ *              that may be vulnerable to quantum computing attacks by analyzing cryptographic
+ *              library usage patterns and algorithm implementations.
+ * @kind problem
+ * @id py/quantum-readiness/cbom/symmetric-encryption-algorithms
+ * @problem.severity error
+ * @tags cbom
+ *       cryptography
+ */
+
+import python
+import experimental.cryptography.Concepts
+
+from SymmetricEncryptionAlgorithm quantumVulnerableAlgorithm
+select quantumVulnerableAlgorithm, "Detected algorithm usage: " + quantumVulnerableAlgorithm.getEncryptionName()

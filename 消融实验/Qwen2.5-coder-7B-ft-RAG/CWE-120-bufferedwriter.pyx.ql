@@ -1,0 +1,1 @@
+import pythonimport semmle.python.security.dataflow.BufferOverflowQueryimport BufferedWriterFlow::PathGraphfrom BufferedWriterFlow::PathNode source, BufferedWriterFlow::PathNode sinkwhere BufferedWriterFlow::flowPath(source, sink)select sink.getNode(), source, sink, "Buffer copy depends on a $@.", source.getNode(),  "user-controlled value"

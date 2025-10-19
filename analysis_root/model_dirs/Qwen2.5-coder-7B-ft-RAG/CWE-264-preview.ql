@@ -1,0 +1,1 @@
+import pythonimport semmle.python.security.dataflow.NanPropagationQueryimport NanPropagationFlow::PathGraphfrom NanPropagationFlow::PathNode source, NanPropagationFlow::PathNode sinkwhere NanPropagationFlow::flowPath(source, sink)select sink.getNode(), source, sink, "The number is propagated from a $@.", source.getNode(),  "untrusted source"

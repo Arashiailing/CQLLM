@@ -1,0 +1,476 @@
+CWE-id,Query_id,Name,Vul-type,Description
+CWE-20,py/affinity_filter,CWE-20: Improper Input Validation,StackTraceExposureQuery,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly. "
+CWE-20,py/Cfg,CWE-20: Improper Input Validation,CommandInjectionQuery,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly. "
+CWE-20,py/check_icns_dos,CWE-20: Improper Input Validation,PolynomialReDoSQuery,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly. "
+CWE-20,py/download-cwe-20,CWE-20: Improper Input Validation,PathInjectionQuery,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly. "
+CWE-20,py/emailutils,CWE-20: Improper Input Validation,HttpHeaderInjectionQuery,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly. "
+CWE-20,py/federation_base,CWE-20: Improper Input Validation,CommandInjectionQuery,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly. "
+CWE-20,py/IcnsImagePlugin,CWE-20: Improper Input Validation,PathInjectionQuery,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly. "
+CWE-20,py/multifilesystem,CWE-20: Improper Input Validation,PathInjectionQuery,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly. "
+CWE-20,py/repository,CWE-20: Improper Input Validation,CommandInjectionQuery,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly. "
+CWE-20,py/SSHbase,CWE-20: Improper Input Validation,CommandInjectionQuery,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly. "
+CWE-20,py/Svn,CWE-20: Improper Input Validation,CommandInjectionQuery,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly. "
+CWE-20,py/threepidunbindservlet,CWE-20: Improper Input Validation,PathInjectionQuery,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly. "
+CWE-20,py/zeromq,CWE-20: Improper Input Validation,CommandInjectionQuery,"The product receives input or data, but it does
+        not validate or incorrectly validates that the input has the
+        properties that are required to process the data safely and
+        correctly. "
+CWE-21,py/filesystem-cwe-21,CWE CATEGORY: DEPRECATED: Pathname Traversal and Equivalence Errors,PathInjectionQuery,
+CWE-22,py/download-cwe-22,Uncontrolled data used in path expression,PathInjectionQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-22,py/Expressions,Uncontrolled data used in path expression,PathInjectionQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-22,py/Global,Uncontrolled data used in path expression,PathInjectionQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-22,py/regen_golden_master,Uncontrolled data used in path expression,PathInjectionQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-22,py/reposync,Uncontrolled data used in path expression,PathInjectionQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-22,py/rest_fs_access,Uncontrolled data used in path expression,PathInjectionQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-22,py/s3,Uncontrolled data used in path expression,PathInjectionQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-22,py/SConscript,Uncontrolled data used in path expression,TarSlipQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-22,py/verify,Uncontrolled data used in path expression,PathInjectionQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-22,py/xhu,Uncontrolled data used in path expression,PathInjectionQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-59,py/chroot,CWE-59: Improper Link Resolution Before File Access ('Link Following'),PathInjectionQuery,
+CWE-59,py/daemonizer,CWE-59: Improper Link Resolution Before File Access ('Link Following'),TarSlipQuery,
+CWE-59,py/EpsImagePlugin-cwe-59,CWE-59: Improper Link Resolution Before File Access ('Link Following'),PathInjectionQuery,
+CWE-59,py/jail,CWE-59: Improper Link Resolution Before File Access ('Link Following'),PathInjectionQuery,
+CWE-59,py/keycloak_cli,CWE-59: Improper Link Resolution Before File Access ('Link Following'),TarSlipQuery,
+CWE-59,py/zone,CWE-59: Improper Link Resolution Before File Access ('Link Following'),PathInjectionQuery,
+CWE-74,py/registration,Server Side Template Injection,ReflectedXssQuery,Using user-controlled data to create a template can lead to remote code execution or cross site scripting.
+CWE-74,py/ticketer,Server Side Template Injection,CommandInjectionQuery,Using user-controlled data to create a template can lead to remote code execution or cross site scripting.
+CWE-74,py/_newclient,Server Side Template Injection,ReflectedXssQuery,Using user-controlled data to create a template can lead to remote code execution or cross site scripting.
+CWE-77,py/allow_execmod,CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection'),CommandInjectionQuery,"The product constructs all or part of a command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended command when it is sent to a downstream component. "
+CWE-77,py/guibase,CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection'),CommandInjectionQuery,"The product constructs all or part of a command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended command when it is sent to a downstream component. "
+CWE-77,py/signature,CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection'),CommandInjectionQuery,"The product constructs all or part of a command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended command when it is sent to a downstream component. "
+CWE-78,py/apkleaks-cwe-78,Uncontrolled command line,CommandInjectionQuery,Using externally controlled strings in a command line may allow a malicious user to change the meaning of the command.
+CWE-78,py/notifyplugin,Uncontrolled command line,CommandInjectionQuery,Using externally controlled strings in a command line may allow a malicious user to change the meaning of the command.
+CWE-78,py/stix2misp,Uncontrolled command line,CommandInjectionQuery,Using externally controlled strings in a command line may allow a malicious user to change the meaning of the command.
+CWE-78,py/Trigger,Uncontrolled command line,CommandInjectionQuery,Using externally controlled strings in a command line may allow a malicious user to change the meaning of the command.
+CWE-79,py/0047_rawhtmlblock,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/api_routes,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/app-cwe-79,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/base-cwe-79,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/chemcalc,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/db-cwe-79,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/djblets_js,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/fckdialog,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/gravatars,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/htmlserializer,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/http,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/httphandler-cwe-79,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/LICENSE,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/mailer,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/mistune,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/notebookapp,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/qutescheme,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/registration,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/victim,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/ZRPythonExpr,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-88,py/apkleaks-cwe-88,CWE-88: Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),CommandInjectionQuery,
+CWE-89,py/db-cwe-89,CWE-89: SQL query built from user-controlled sources,SqlInjectionQuery,Building a SQL query from user-controlled sources is vulnerable to insertion of malicious SQL code by the user.
+CWE-89,py/executor,CWE-89: SQL query built from user-controlled sources,SqlInjectionQuery,Building a SQL query from user-controlled sources is vulnerable to insertion of malicious SQL code by the user.
+CWE-89,py/mixins,CWE-89: SQL query built from user-controlled sources,SqlInjectionQuery,Building a SQL query from user-controlled sources is vulnerable to insertion of malicious SQL code by the user.
+CWE-89,py/stats,CWE-89: SQL query built from user-controlled sources,SqlInjectionQuery,Building a SQL query from user-controlled sources is vulnerable to insertion of malicious SQL code by the user.
+CWE-89,py/victim,CWE-89: SQL query built from user-controlled sources,SqlInjectionQuery,Building a SQL query from user-controlled sources is vulnerable to insertion of malicious SQL code by the user.
+CWE-90,py/t_kdb,LDAP query built from user-controlled sources,LdapInjectionQuery,"Building an LDAP query from user-controlled sources is vulnerable to insertion of
+malicious LDAP code by the user."
+CWE-93,py/bottle,CWE-93: Improper Neutralization of CRLF Sequences ('CRLF Injection'),HttpHeaderInjectionQuery,"The product uses CRLF (carriage return line feeds) as a special element, e.g. to separate lines or records, but it does not neutralize or incorrectly neutralizes CRLF sequences from inputs. "
+CWE-94,py/memcache,Code injection,CodeInjectionQuery,"Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+code execution."
+CWE-94,py/memcached,Code injection,UnsafeDeserializationQuery,"Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+code execution."
+CWE-94,py/plugin,Code injection,CommandInjectionQuery,"Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+code execution."
+CWE-94,py/report_mirror,Code injection,CommandInjectionQuery,"Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+code execution."
+CWE-94,py/xmlrpc,Code injection,CodeInjectionQuery,"Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+code execution."
+CWE-116,py/openssl_csr,Bad HTML filtering regexp,PathInjectionQuery,"Matching HTML tags using regular expressions is hard to do right, and can easily lead to security issues."
+CWE-116,py/openssl_privatekey,Bad HTML filtering regexp,LogInjectionQuery,"Matching HTML tags using regular expressions is hard to do right, and can easily lead to security issues."
+CWE-116,py/openssl_privatekey_info,Bad HTML filtering regexp,PathInjectionQuery,"Matching HTML tags using regular expressions is hard to do right, and can easily lead to security issues."
+CWE-116,py/openssl_publickey,Bad HTML filtering regexp,ReflectedXssQuery,"Matching HTML tags using regular expressions is hard to do right, and can easily lead to security issues."
+CWE-116,py/openssl_signature,Bad HTML filtering regexp,LogInjectionQuery,"Matching HTML tags using regular expressions is hard to do right, and can easily lead to security issues."
+CWE-119,py/tlsrecordlayer,CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer,UnsafeDeserializationQuery,"The product performs operations on a memory buffer, but it reads from or writes to a memory location outside the buffer's intended boundary. This may result in read or write operations on unexpected memory locations that could be linked to other variables, data structures, or internal program data. "
+CWE-125,py/ast,CWE-125: Out-of-bounds Read,PathInjectionQuery,"The product reads data past the end, or before the beginning, of the intended buffer. "
+CWE-125,py/Grammar,CWE-125: Out-of-bounds Read,PathInjectionQuery,"The product reads data past the end, or before the beginning, of the intended buffer. "
+CWE-134,py/nodes,CWE-134: Use of Externally-Controlled Format String,LogInjectionQuery,"The product uses a function that accepts a format string as an argument, but the format string originates from an external source. "
+CWE-134,py/sandbox,CWE-134: Use of Externally-Controlled Format String,CommandInjectionQuery,"The product uses a function that accepts a format string as an argument, but the format string originates from an external source. "
+CWE-200,py/base-cwe-200,CWE-200: Exposure of Sensitive Information to an Unauthorized Actor,CleartextLoggingQuery,
+CWE-200,py/jwa,CWE-200: Exposure of Sensitive Information to an Unauthorized Actor,CleartextStorageQuery,
+CWE-200,py/ZODBRoleManager,CWE-200: Exposure of Sensitive Information to an Unauthorized Actor,CleartextStorageQuery,
+CWE-255,py/core-cwe-255,CWE CATEGORY: Credentials Management Errors,CleartextStorageQuery,
+CWE-255,py/engine,CWE CATEGORY: Credentials Management Errors,UnsafeShellCommandConstructionQuery,
+CWE-255,py/globals,CWE CATEGORY: Credentials Management Errors,CleartextStorageQuery,
+CWE-264,py/archiver,"CWE CATEGORY: Permissions, Privileges, and Access Controls",TarSlipQuery,
+CWE-264,py/bccache,"CWE CATEGORY: Permissions, Privileges, and Access Controls",UnsafeDeserializationQuery,
+CWE-264,py/cache,"CWE CATEGORY: Permissions, Privileges, and Access Controls",StackTraceExposureQuery,
+CWE-264,py/kvs,"CWE CATEGORY: Permissions, Privileges, and Access Controls",CommandInjectionQuery,
+CWE-264,py/quota,"CWE CATEGORY: Permissions, Privileges, and Access Controls",CommandInjectionQuery,
+CWE-284,py/RegistrationTool,CWE-284: Improper Access Control,CleartextStorageQuery,
+CWE-284,py/sandbox,CWE-284: Improper Access Control,CommandInjectionQuery,
+CWE-287,py/0004_auto_20200810_1111,CWE-287: Improper Authentication,CleartextStorageQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-287,py/db-cwe-287,CWE-287: Improper Authentication,SqlInjectionQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-287,py/gpgi,CWE-287: Improper Authentication,PamAuthorizationQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-287,py/omr-admin,CWE-287: Improper Authentication,CleartextStorageQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-287,py/roomer,CWE-287: Improper Authentication,CommandInjectionQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-287,py/version,CWE-287: Improper Authentication,PamAuthorizationQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-287,py/views-cwe-287,CWE-287: Improper Authentication,PamAuthorizationQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-295,py/cli-cwe-295,CWE-295: Improper Certificate Validation,ServerSideRequestForgeryQuery,Request without certificate validation.Making a request without certificate validation can allow man-in-the-middle attacks.
+CWE-295,py/client-cwe-295,CWE-295: Improper Certificate Validation,CleartextLoggingQuery,Request without certificate validation.Making a request without certificate validation can allow man-in-the-middle attacks.
+CWE-295,py/consumer,CWE-295: Improper Certificate Validation,ServerSideRequestForgeryQuery,Request without certificate validation.Making a request without certificate validation can allow man-in-the-middle attacks.
+CWE-295,py/static,CWE-295: Improper Certificate Validation,ServerSideRequestForgeryQuery,Request without certificate validation.Making a request without certificate validation can allow man-in-the-middle attacks.
+CWE-310,py/ElGamal,CWE CATEGORY: Cryptographic Issues,WeakSensitiveDataHashingQuery,
+CWE-310,py/FortunaAccumulator,CWE CATEGORY: Cryptographic Issues,WeakSensitiveDataHashingQuery,
+CWE-310,py/_UserFriendlyRNG,CWE CATEGORY: Cryptographic Issues,WeakSensitiveDataHashingQuery,
+CWE-347,py/sigver,CWE-347: Improper Verification of Cryptographic Signature,WeakSensitiveDataHashingQuery,"The product does not verify, or incorrectly verifies, the cryptographic signature for data. "
+CWE-352,py/interceptor,CSRF protection weakened or disabled,ServerSideRequestForgeryQuery,"Disabling or weakening CSRF protection may make the application
+vulnerable to a Cross-Site Request Forgery (CSRF) attack."
+CWE-352,py/qutescheme,CSRF protection weakened or disabled,ReflectedXssQuery,"Disabling or weakening CSRF protection may make the application
+vulnerable to a Cross-Site Request Forgery (CSRF) attack."
+CWE-362,py/htpasswd,CWE-362: Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),CleartextStorageQuery,"The product contains a concurrent code sequence that requires temporary, exclusive access to a shared resource, but a timing window exists in which the shared resource can be modified by another code sequence operating concurrently. "
+CWE-362,py/serviceHelper,CWE-362: Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),CommandInjectionQuery,"The product contains a concurrent code sequence that requires temporary, exclusive access to a shared resource, but a timing window exists in which the shared resource can be modified by another code sequence operating concurrently. "
+CWE-400,py/matrixfederationclient,CWE-400: Uncontrolled Resource Consumption,LogInjectionQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-400,py/push_rule_evaluator,CWE-400: Uncontrolled Resource Consumption,CommandInjectionQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-400,py/server,CWE-400: Uncontrolled Resource Consumption,ReflectedXssQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-400,py/store_invite_servlet,CWE-400: Uncontrolled Resource Consumption,CleartextStorageQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-502,py/act,Deserialization of user-controlled data,UnsafeDeserializationQuery,Deserializing user-controlled data may allow attackers to execute arbitrary code.
+CWE-502,py/bookmarkmanager,Deserialization of user-controlled data,UnsafeDeserializationQuery,Deserializing user-controlled data may allow attackers to execute arbitrary code.
+CWE-502,py/cli-cwe-502,Deserialization of user-controlled data,UnsafeDeserializationQuery,Deserializing user-controlled data may allow attackers to execute arbitrary code.
+CWE-502,py/code,Deserialization of user-controlled data,UnsafeDeserializationQuery,Deserializing user-controlled data may allow attackers to execute arbitrary code.
+CWE-502,py/config-cwe-502,Deserialization of user-controlled data,UnsafeDeserializationQuery,Deserializing user-controlled data may allow attackers to execute arbitrary code.
+CWE-522,py/settings,CWE-522: Insufficiently Protected Credentials,CleartextStorageQuery,
+CWE-522,py/views-cwe-522,CWE-522: Insufficiently Protected Credentials,CleartextStorageQuery,
+CWE-532,py/apps,CWE-532: Insertion of Sensitive Information into Log File,CleartextLoggingQuery,The product writes sensitive information to a log file. 
+CWE-532,py/base-cwe-532,CWE-532: Insertion of Sensitive Information into Log File,CleartextLoggingQuery,The product writes sensitive information to a log file. 
+CWE-532,py/checks,CWE-532: Insertion of Sensitive Information into Log File,CleartextLoggingQuery,The product writes sensitive information to a log file. 
+CWE-532,py/filesystem-cwe-532,CWE-532: Insertion of Sensitive Information into Log File,CleartextLoggingQuery,The product writes sensitive information to a log file. 
+CWE-532,py/webhook_cases,CWE-532: Insertion of Sensitive Information into Log File,CleartextLoggingQuery,The product writes sensitive information to a log file. 
+CWE-534,py/user,CWE-534: DEPRECATED: Information Exposure Through Debug Log Files,CleartextStorageQuery,
+CWE-601,py/client-cwe-601,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/CookieAuthHelper,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/httppusher,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/login,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/logout,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/matrixfederationclient,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/matrix_federation_agent,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/media_repository,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/middlewares,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/modules,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/server,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/settings,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/setup,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-611,py/metadata,XML external entity expansion,XxeQuery,"Parsing user input as an XML document with external
+entity expansion is vulnerable to XXE attacks."
+CWE-611,py/pack,XML external entity expansion,XxeQuery,"Parsing user input as an XML document with external
+entity expansion is vulnerable to XXE attacks."
+CWE-611,py/soap,XML external entity expansion,XxeQuery,"Parsing user input as an XML document with external
+entity expansion is vulnerable to XXE attacks."
+CWE-611,py/_xml,XML external entity expansion,XxeQuery,"Parsing user input as an XML document with external
+entity expansion is vulnerable to XXE attacks."
+CWE-617,py/t_s4u,CWE-617: Reachable Assertion,CommandInjectionQuery,
+CWE-684,py/webenginetab,CWE-684: Incorrect Provision of Specified Functionality,UrlRedirectQuery,
+CWE-863,py/spawner,CWE-863: Incorrect Authorization,PamAuthorizationQuery,"The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check. "
+CWE-918,py/launcher,CWE-918: Server-Side Request Forgery (SSRF),ServerSideRequestForgeryQuery,"Partial server-side request forgery.Making a network request to a URL that is partially user-controlled allows for request forgery attacks..The web server receives a URL or similar request from an upstream component and retrieves the contents of this URL, but it does not sufficiently ensure that the request is being sent to the expected destination. "
+CWE-918,py/resource,CWE-918: Server-Side Request Forgery (SSRF),ServerSideRequestForgeryQuery,"Partial server-side request forgery.Making a network request to a URL that is partially user-controlled allows for request forgery attacks..The web server receives a URL or similar request from an upstream component and retrieves the contents of this URL, but it does not sufficiently ensure that the request is being sent to the expected destination. "
+CWE-918,py/stringutils,CWE-918: Server-Side Request Forgery (SSRF),ServerSideRequestForgeryQuery,"Partial server-side request forgery.Making a network request to a URL that is partially user-controlled allows for request forgery attacks..The web server receives a URL or similar request from an upstream component and retrieves the contents of this URL, but it does not sufficiently ensure that the request is being sent to the expected destination. "
+CWE-918,py/threepidunbindservlet,CWE-918: Server-Side Request Forgery (SSRF),ServerSideRequestForgeryQuery,"Partial server-side request forgery.Making a network request to a URL that is partially user-controlled allows for request forgery attacks..The web server receives a URL or similar request from an upstream component and retrieves the contents of this URL, but it does not sufficiently ensure that the request is being sent to the expected destination. "
+CWE-20,py/launcher,CWE-20: Improper Input Validation,CommandInjectionQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-20,py/return_data,CWE-20: Improper Input Validation,LogInjectionQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-20,py/serializers,CWE-20: Improper Input Validation,UnsafeDeserializationQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-20,py/views-cwe-20,CWE-20: Improper Input Validation,SqlInjectionQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-22,py/downloader,Uncontrolled data used in path expression,PathInjectionQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-22,py/expression,Uncontrolled data used in path expression,PathInjectionQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-22,py/file,Uncontrolled data used in path expression,PathInjectionQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-22,py/httphandler-cwe-22,Uncontrolled data used in path expression,PathInjectionQuery,Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-74,py/mailer,Server Side Template Injection,CommandInjectionQuery,Using user-controlled data to create a template can lead to remote code execution or cross site scripting.
+CWE-77,py/sealert,CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection'),UnsafeShellCommandConstructionQuery,"The product constructs all or part of a command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended command when it is sent to a downstream component. "
+CWE-79,py/functions,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/handlers,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/models,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/reviewtags,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/rhnPackage,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/routing,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/setup,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/stats,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/validate,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/widgets,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-89,py/general,CWE-89: SQL query built from user-controlled sources,SqlInjectionQuery,Building a SQL query from user-controlled sources is vulnerable to insertion of malicious SQL code by the user.
+CWE-94,py/errors,Code injection,CodeInjectionQuery,"Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+code execution."
+CWE-94,py/evaluator,Code injection,CodeInjectionQuery,"Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+code execution."
+CWE-94,py/parser,Code injection,CodeInjectionQuery,"Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+code execution."
+CWE-94,py/properties,Code injection,CodeInjectionQuery,"Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+code execution."
+CWE-94,py/setup,Code injection,CodeInjectionQuery,"Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+code execution."
+CWE-116,py/x509_certificate,Bad HTML filtering regexp,LogInjectionQuery,"Matching HTML tags using regular expressions is hard to do right, and can easily lead to security issues."
+CWE-116,py/x509_crl,Bad HTML filtering regexp,ReflectedXssQuery,"Matching HTML tags using regular expressions is hard to do right, and can easily lead to security issues."
+CWE-119,py/core-cwe-119,CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer,PathInjectionQuery,"The product performs operations on a memory buffer, but it reads from or writes to a memory location outside the buffer's intended boundary. This may result in read or write operations on unexpected memory locations that could be linked to other variables, data structures, or internal program data. "
+CWE-120,py/bufferedreader.pyx,CWE-120: Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),PathInjectionQuery,The product copies an input buffer to an output buffer without verifying that the size of the input buffer is less than the size of the output buffer. 
+CWE-125,py/token,CWE-125: Out-of-bounds Read,PathInjectionQuery,"The product reads data past the end, or before the beginning, of the intended buffer. "
+CWE-203,py/web,CWE-203: Observable Discrepancy,StackTraceExposureQuery,
+CWE-254,py/access,CWE CATEGORY: 7PK - Security Features,CodeInjectionQuery,
+CWE-254,py/core-cwe-254,CWE CATEGORY: 7PK - Security Features,CodeInjectionQuery,
+CWE-264,py/cloud-cwe-264,"CWE CATEGORY: Permissions, Privileges, and Access Controls",CleartextStorageQuery,
+CWE-264,py/core-cwe-264,"CWE CATEGORY: Permissions, Privileges, and Access Controls",CommandInjectionQuery,
+CWE-264,py/documentview,"CWE CATEGORY: Permissions, Privileges, and Access Controls",PathInjectionQuery,
+CWE-269,py/autojump,CWE-269: Improper Privilege Management,CommandInjectionQuery,"The product does not properly assign, modify, track, or check privileges for an actor, creating an unintended sphere of control for that actor. "
+CWE-284,py/setup,CWE-284: Improper Access Control,CommandInjectionQuery,
+CWE-287,py/crypto_gnupg,CWE-287: Improper Authentication,PathInjectionQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-287,py/transport,CWE-287: Improper Authentication,PamAuthorizationQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-295,py/bindings,CWE-295: Improper Certificate Validation,WeakSensitiveDataHashingQuery,Request without certificate validation.Making a request without certificate validation can allow man-in-the-middle attacks.
+CWE-326,py/httpauth.nim,Use of weak cryptographic key,WeakSensitiveDataHashingQuery,Use of a cryptographic key that is too small may allow the encryption to be broken.
+CWE-330,py/packet,CWE-330: Use of Insufficiently Random Values,WeakSensitiveDataHashingQuery,The product uses insufficiently random numbers or values in a security context that depends on unpredictable numbers. 
+CWE-400,py/error,CWE-400: Uncontrolled Resource Consumption,CommandInjectionQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-400,py/registerservlet,CWE-400: Uncontrolled Resource Consumption,PolynomialReDoSQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-400,py/url,CWE-400: Uncontrolled Resource Consumption,PolynomialReDoSQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-444,py/parser,CWE-444: Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),HttpHeaderInjectionQuery,
+CWE-444,py/receiver,CWE-444: Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),ReflectedXssQuery,
+CWE-522,py/0002_auto_20190406_1322,CWE-522: Insufficiently Protected Credentials,CleartextStorageQuery,
+CWE-522,py/base-cwe-522,CWE-522: Insufficiently Protected Credentials,CleartextStorageQuery,
+CWE-522,py/manage,CWE-522: Insufficiently Protected Credentials,CleartextStorageQuery,
+CWE-601,py/identity,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/keyring,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-601,py/views-cwe-601,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-611,py/setup,XML external entity expansion,XxeQuery,"Parsing user input as an XML document with external
+entity expansion is vulnerable to XXE attacks."
+CWE-684,py/browsertab,CWE-684: Incorrect Provision of Specified Functionality,CommandInjectionQuery,
+CWE-684,py/webkittab,CWE-684: Incorrect Provision of Specified Functionality,ReflectedXssQuery,
+CWE-862,py/invite,CWE-862: Missing Authorization,ReflectedXssQuery,The product does not perform an authorization check when an actor attempts to access a resource or perform an action. 
+CWE-863,py/views-cwe-863,CWE-863: Incorrect Authorization,PamAuthorizationQuery,"The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check. "
+CWE-918,py/registerservlet,CWE-918: Server-Side Request Forgery (SSRF),ServerSideRequestForgeryQuery,"Partial server-side request forgery.Making a network request to a URL that is partially user-controlled allows for request forgery attacks..The web server receives a URL or similar request from an upstream component and retrieves the contents of this URL, but it does not sufficiently ensure that the request is being sent to the expected destination. "
+CWE-200,py/sosreport,CWE-200: Exposure of Sensitive Information to an Unauthorized Actor,CleartextStorageQuery,
+CWE-200,py/swift,CWE-200: Exposure of Sensitive Information to an Unauthorized Actor,CleartextLoggingQuery,
+CWE-264,py/regex,"CWE CATEGORY: Permissions, Privileges, and Access Controls",RegexInjectionQuery,
+CWE-264,py/sql,"CWE CATEGORY: Permissions, Privileges, and Access Controls",SqlInjectionQuery,
+CWE-276,py/sos_collector,CWE-276: Incorrect Default Permissions,TarSlipQuery,
+CWE-287,py/basic_auth,CWE-287: Improper Authentication,CleartextStorageQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-287,py/middleware,CWE-287: Improper Authentication,PamAuthorizationQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-310,py/pycrypto,CWE CATEGORY: Cryptographic Issues,WeakSensitiveDataHashingQuery,
+CWE-352,py/filescheme,CSRF protection weakened or disabled,UrlRedirectQuery,"Disabling or weakening CSRF protection may make the application
+vulnerable to a Cross-Site Request Forgery (CSRF) attack."
+CWE-400,py/stringutils,CWE-400: Uncontrolled Resource Consumption,PolynomialReDoSQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-863,py/kickban,CWE-863: Incorrect Authorization,PamAuthorizationQuery,"The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check. "
+CWE-918,py/sydent,CWE-918: Server-Side Request Forgery (SSRF),ServerSideRequestForgeryQuery,"Partial server-side request forgery.Making a network request to a URL that is partially user-controlled allows for request forgery attacks..The web server receives a URL or similar request from an upstream component and retrieves the contents of this URL, but it does not sufficiently ensure that the request is being sent to the expected destination. "
+CWE-19,py/chef,CWE CATEGORY: Data Processing Errors,CommandInjectionQuery,
+CWE-19,py/serverdensity_device,CWE CATEGORY: Data Processing Errors,CommandInjectionQuery,
+CWE-20,py/store_invite_servlet,CWE-20: Improper Input Validation,CommandInjectionQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-20,py/Viz,CWE-20: Improper Input Validation,CommandInjectionQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-21,py/pathutils,CWE CATEGORY: DEPRECATED: Pathname Traversal and Equivalence Errors,PathInjectionQuery,
+CWE-74,py/client-cwe-74,Server Side Template Injection,UnsafeShellCommandConstructionQuery,Using user-controlled data to create a template can lead to remote code execution or cross site scripting.
+CWE-74,py/connection,Server Side Template Injection,CommandInjectionQuery,Using user-controlled data to create a template can lead to remote code execution or cross site scripting.
+CWE-79,py/clean,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/compare,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-79,py/readers,Reflected server-side cross-site scripting,HttpHeaderInjectionQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-94,py/a_model,Code injection,CommandInjectionQuery,"Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+code execution."
+CWE-94,py/openapi,Code injection,UnsafeDeserializationQuery,"Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+code execution."
+CWE-200,py/context,CWE-200: Exposure of Sensitive Information to an Unauthorized Actor,CleartextStorageQuery,
+CWE-200,py/formats,CWE-200: Exposure of Sensitive Information to an Unauthorized Actor,CleartextLoggingQuery,
+CWE-200,py/keycloak_cli,CWE-200: Exposure of Sensitive Information to an Unauthorized Actor,CleartextStorageQuery,
+CWE-20,py/registerservlet,CWE-20: Improper Input Validation,SqlInjectionQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-20,py/tcp,CWE-20: Improper Input Validation,CleartextLoggingQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-21,py/multifilesystem,CWE CATEGORY: DEPRECATED: Pathname Traversal and Equivalence Errors,PathInjectionQuery,
+CWE-79,py/commands,Reflected server-side cross-site scripting,ReflectedXssQuery,Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-125,py/symbol,CWE-125: Out-of-bounds Read,PathInjectionQuery,"The product reads data past the end, or before the beginning, of the intended buffer. "
+CWE-200,py/hashers,CWE-200: Exposure of Sensitive Information to an Unauthorized Actor,WeakSensitiveDataHashingQuery,
+CWE-200,py/settings,CWE-200: Exposure of Sensitive Information to an Unauthorized Actor,CleartextStorageQuery,
+CWE-255,py/parse,CWE CATEGORY: Credentials Management Errors,WeakSensitiveDataHashingQuery,
+CWE-264,py/EpsImagePlugin-cwe-264,"CWE CATEGORY: Permissions, Privileges, and Access Controls",PathInjectionQuery,
+CWE-264,py/sec,"CWE CATEGORY: Permissions, Privileges, and Access Controls",CommandInjectionQuery,
+CWE-287,py/core-cwe-287,CWE-287: Improper Authentication,PamAuthorizationQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-287,py/service,CWE-287: Improper Authentication,PamAuthorizationQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-352,py/networkmanager,CSRF protection weakened or disabled,UrlRedirectQuery,"Disabling or weakening CSRF protection may make the application
+vulnerable to a Cross-Site Request Forgery (CSRF) attack."
+CWE-352,py/webenginequtescheme,CSRF protection weakened or disabled,UrlRedirectQuery,"Disabling or weakening CSRF protection may make the application
+vulnerable to a Cross-Site Request Forgery (CSRF) attack."
+CWE-400,py/client-cwe-400,CWE-400: Uncontrolled Resource Consumption,PolynomialReDoSQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-400,py/setup,CWE-400: Uncontrolled Resource Consumption,TarSlipQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-476,py/t_pkinit,CWE-476: NULL Pointer Dereference,StackTraceExposureQuery,The product dereferences a pointer that it expects to be valid but is NULL. 
+CWE-601,py/generic_worker,URL redirection from remote source,UrlRedirectQuery,"URL redirection based on unvalidated user input
+may cause redirection to malicious web sites."
+CWE-665,py/parsing_ops,CWE-665: Improper Initialization,UnsafeDeserializationQuery,
+CWE-264,py/cpsetup,"CWE CATEGORY: Permissions, Privileges, and Access Controls",TarSlipQuery,
+CWE-295,py/server,CWE-295: Improper Certificate Validation,ServerSideRequestForgeryQuery,Request without certificate validation.Making a request without certificate validation can allow man-in-the-middle attacks.
+CWE-400,py/emailservlet,CWE-400: Uncontrolled Resource Consumption,HttpHeaderInjectionQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-787,py/gperf_unfold_key_conv,CWE-787: Out-of-bounds Write,CodeInjectionQuery,"The product writes data past the end, or before the beginning, of the intended buffer. "
+CWE-835,py/datetime_parse,CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop'),PolynomialReDoSQuery,"The product contains an iteration or loop with an exit condition that cannot be reached, i.e., an infinite loop. "
+CWE-863,py/models,CWE-863: Incorrect Authorization,PamAuthorizationQuery,"The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check. "
+CWE-20,py/sydent,CWE-20: Improper Input Validation,ServerSideRequestForgeryQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-20,py/template,CWE-20: Improper Input Validation,TemplateInjectionQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-74,py/injectionhelpers,Server Side Template Injection,CommandInjectionQuery,Using user-controlled data to create a template can lead to remote code execution or cross site scripting.
+CWE-254,py/default,CWE CATEGORY: 7PK - Security Features,PamAuthorizationQuery,
+CWE-255,py/service,CWE CATEGORY: Credentials Management Errors,CleartextStorageQuery,
+CWE-264,py/security_groups,"CWE CATEGORY: Permissions, Privileges, and Access Controls",CleartextLoggingQuery,
+CWE-264,py/service,"CWE CATEGORY: Permissions, Privileges, and Access Controls",UnsafeShellCommandConstructionQuery,
+CWE-287,py/models,CWE-287: Improper Authentication,UnsafeDeserializationQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-287,py/serializers,CWE-287: Improper Authentication,HttpHeaderInjectionQuery,"When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct. "
+CWE-331,py/__init__,RCE,WeakSensitiveDataHashingQuery,
+CWE-352,py/webkitqutescheme,CSRF protection weakened or disabled,ServerSideRequestForgeryQuery,"Disabling or weakening CSRF protection may make the application
+vulnerable to a Cross-Site Request Forgery (CSRF) attack."
+CWE-362,py/auth,CWE-362: Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),PathInjectionQuery,"The product contains a concurrent code sequence that requires temporary, exclusive access to a shared resource, but a timing window exists in which the shared resource can be modified by another code sequence operating concurrently. "
+CWE-400,py/freewvs,CWE-400: Uncontrolled Resource Consumption,PolynomialReDoSQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-400,py/matrixfederationagent,CWE-400: Uncontrolled Resource Consumption,TarSlipQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-400,py/well_known_resolver,CWE-400: Uncontrolled Resource Consumption,ServerSideRequestForgeryQuery,The product does not properly control the allocation and maintenance of a limited resource. 
+CWE-476,py/t_kdb,CWE-476: NULL Pointer Dereference,StackTraceExposureQuery,The product dereferences a pointer that it expects to be valid but is NULL. 
+CWE-522,py/models,CWE-522: Insufficiently Protected Credentials,CleartextStorageQuery,
+CWE-20,py/cloud-cwe-20,CWE-20: Improper Input Validation,CommandInjectionQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-20,py/firewall,CWE-20: Improper Input Validation,CommandInjectionQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-20,py/Hg,CWE-20: Improper Input Validation,UnsafeShellCommandConstructionQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-20,py/message,CWE-20: Improper Input Validation,CommandInjectionQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-20,py/script,CWE-20: Improper Input Validation,CommandInjectionQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-20,py/TProtocol,CWE-20: Improper Input Validation,CodeInjectionQuery,"The product receives input or data, but it does
+
+not validate or incorrectly validates that the input has the
+
+properties that are required to process the data safely and
+
+correctly. "
+CWE-74,py/warnsystem,Server Side Template Injection,ReflectedXssQuery,Using user-controlled data to create a template can lead to remote code execution or cross site scripting.
+CWE-94,py/app-cwe-94,Code injection,CodeInjectionQuery,"Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+code execution."
+CWE-119,py/exception,CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer,StackTraceExposureQuery,"The product performs operations on a memory buffer, but it reads from or writes to a memory location outside the buffer's intended boundary. This may result in read or write operations on unexpected memory locations that could be linked to other variables, data structures, or internal program data. "
+CWE-120,py/bufferedwriter.pyx,CWE-120: Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),StackTraceExposureQuery,The product copies an input buffer to an output buffer without verifying that the size of the input buffer is less than the size of the output buffer. 
+CWE-125,py/asdl_c,CWE-125: Out-of-bounds Read,CodeInjectionQuery,"The product reads data past the end, or before the beginning, of the intended buffer. "
+CWE-125,py/ast3,CWE-125: Out-of-bounds Read,PathInjectionQuery,"The product reads data past the end, or before the beginning, of the intended buffer. "

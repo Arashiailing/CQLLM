@@ -1,0 +1,1 @@
+import pythonimport semmle.python.security.dataflow.ReflectedXssQueryimport ReflectedXssFlow::PathGraphfrom ReflectedXssFlow::PathNode source, ReflectedXssFlow::PathNode sinkwhere ReflectedXssFlow::flowPath(source, sink)select sink.getNode(), source, sink, "Cross-site scripting vulnerability due to a $@.",  source.getNode(), "user-provided value"

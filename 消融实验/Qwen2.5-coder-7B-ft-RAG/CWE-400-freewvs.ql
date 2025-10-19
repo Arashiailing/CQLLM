@@ -1,0 +1,1 @@
+import pythonimport Freewvs::FreewvsQueryfrom FreewvsFlow::PathNode source, FreewvsFlow::PathNode sinkwhere FreewvsFlow::flowPath(source, sink)select sink.getNode(), source, sink, "Free variable vulnerability depends on a $@.", source.getNode(),  "user-provided value"

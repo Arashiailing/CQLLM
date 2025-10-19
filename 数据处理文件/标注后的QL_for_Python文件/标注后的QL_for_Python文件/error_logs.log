@@ -1,0 +1,24 @@
+2025-06-09 17:29:46,076 - ERROR - 在数据库 puput-master 上执行查询 AlertSuppression.ql 失败: 查询编译错误: AlertSuppression.ql
+查询执行出错: Command '['codeql', 'query', 'run', 'C:\\CodeQL\\使用星火讯飞对代码做标注\\标注后的QL_for_Python文件\\AlertSuppression.ql', '--database', 'C:\\CodeQL_Paper\\CodeQL分析代码\\Python_CMS\\puput-master\\puput-master', '--output', 'C:\\CodeQL_Paper\\CodeQL分析代码\\Python_CMS\\puput-master\\puput-master\\puput-master_AlertSuppression.txt']' returned non-zero exit status 2.
+标准错误输出: Compiling query plan for C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql.
+WARNING: QLDoc comment is not attached to any QL element (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:2,1-7,4)
+ERROR: token recognition error at: '`' (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:1,1-2)
+ERROR: token recognition error at: '`' (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:1,2-3)
+ERROR: token recognition error at: '`' (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:1,3-4)
+ERROR: token recognition error at: '`' (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:70,1-2)
+ERROR: token recognition error at: '`' (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:70,2-3)
+ERROR: token recognition error at: '`' (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:70,3-4)
+ERROR: no viable parse for input 'codeql\r\n/**', expecting one of : 'boolean', 'class', 'newtype', 'date', 'float', 'from', 'import', 'int', 'module', 'predicate', 'select', 'string', 'where', Lowerid, Upperid, Atlowerid (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:1,4-10)
+ERROR: could not resolve module codeql.util.suppression.AlertSuppression (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:10,16-56)
+ERROR: could not resolve module semmle.python.Comment (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:12,16-37)
+ERROR: could not resolve module AS (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:46,8-10)
+ERROR: could not resolve module P (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:15,26-27)
+ERROR: could not resolve module P (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:29,36-37)
+ERROR: could not resolve type SuppressionComment (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:52,38-56)
+ERROR: query module does not have any queries in scope (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:1,1-1)
+ERROR: class 'AstNode' must extend or implement at least one type (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:15,7-14)
+ERROR: class 'SingleLineComment' must extend or implement at least one type (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:29,7-24)
+WARNING: unused class 'NoqaSuppressionComment' (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:52,7-29)
+WARNING: unused method 'getAnnotation' (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:59,19-32)
+WARNING: unused method 'covers' (C:\CodeQL\ʹ���ǻ�Ѷ�ɶԴ�������ע\��ע���QL_for_Python�ļ�\AlertSuppression.ql:62,22-28)
+

@@ -1,0 +1,23 @@
+/**
+ * @name NotImplemented is not an Exception
+ * @description Detects raise statements misusing 'NotImplemented' constant,
+ *              which causes runtime errors since NotImplemented is not an exception class.
+ * @kind problem
+ * @problem.severity warning
+ * @sub-severity high
+ * @precision very-high
+ * @id py/raise-not-implemented
+ * @tags reliability
+ *       maintainability
+ */
+
+import python
+import Exceptions.NotImplemented
+
+from Expr problematicNotImplemented
+where 
+  // Identify raise statements incorrectly using NotImplemented constant
+  use_of_not_implemented_in_raise(_, problematicNotImplemented)
+select 
+  problematicNotImplemented, 
+  "NotImplemented is not an Exception. Use NotImplementedError instead."

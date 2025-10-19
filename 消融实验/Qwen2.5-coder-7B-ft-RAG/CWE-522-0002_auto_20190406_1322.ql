@@ -1,0 +1,1 @@
+import pythonimport semmle.python.dataflow.new.DataFlowimport CleartextStorageFlow::PathGraphfrom CleartextStorageFlow::PathNode source, CleartextStorageFlow::PathNode sinkwhere CleartextStorageFlow::flowPath(source, sink)select sink.getNode(), source, sink, "Storing a $@ in $@ without encryption.", source.getNode(), "password"

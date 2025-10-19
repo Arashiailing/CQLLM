@@ -1,0 +1,380 @@
+C:\Users\16340\PycharmProjects\CQLLM-Python10\.venv\Scripts\python.exe C:\Users\16340\PycharmProjects\CQLLM-Python10\基准-官方给出的CEW-QL能否检查出漏洞.py 
+Executing QL files:   1%|▏         | 1/68 [00:57<1:03:52, 57.21s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-116-openssl_csr.ql -> decode 失败: A fatal error occurred: Cannot determine with result set to use. Use --result-set to choose one of: edges, nodes, subpaths.
+
+Executing QL files:   3%|▎         | 2/68 [02:03<1:08:58, 62.71s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-116-openssl_privatekey.ql -> 0 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-116-openssl_privatekey_info.ql -> 25 漏洞
+Executing QL files:   6%|▌         | 4/68 [04:18<1:11:18, 66.86s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-116-openssl_publickey.ql -> 25 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-116-openssl_signature.ql -> 0 漏洞
+Executing QL files:   9%|▉         | 6/68 [06:00<59:57, 58.03s/it]  C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-119-tlsrecordlayer.ql -> 0 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-125-Grammar.ql -> 107 漏洞
+Executing QL files:  12%|█▏        | 8/68 [08:37<1:08:25, 68.43s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-134-sandbox.ql -> 24 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-20-Cfg.ql -> 24 漏洞
+Executing QL files:  15%|█▍        | 10/68 [10:26<58:50, 60.87s/it] C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-20-check_icns_dos.ql -> 0 漏洞
+Executing QL files:  16%|█▌        | 11/68 [11:24<57:04, 60.08s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-20-download-cwe-20.ql -> 107 漏洞
+Executing QL files:  18%|█▊        | 12/68 [12:04<50:24, 54.01s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-20-emailutils.ql -> 0 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-20-IcnsImagePlugin.ql -> 107 漏洞
+Executing QL files:  21%|██        | 14/68 [14:02<50:55, 56.58s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-20-multifilesystem.ql -> 107 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-20-repository.ql -> 24 漏洞
+Executing QL files:  24%|██▎       | 16/68 [16:01<50:21, 58.10s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-20-SSHbase.ql -> 24 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-20-Svn.ql -> 24 漏洞
+Executing QL files:  26%|██▋       | 18/68 [17:57<48:17, 57.95s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-20-zeromq.ql -> 24 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-21-filesystem-cwe-21.ql -> 107 漏洞
+Executing QL files:  29%|██▉       | 20/68 [20:17<50:37, 63.28s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-download-cwe-22.ql -> 107 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-Expressions.ql -> 107 漏洞
+Executing QL files:  32%|███▏      | 22/68 [21:33<37:04, 48.36s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-Global.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-Global.ql.
+ERROR: could not resolve module semmle.python.security.dataflow.new.internal.DataFlowInternal (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-Global.ql:14,8-69)
+ERROR: could not resolve module semmle.python.security.dataflow.new.internal.dataflow.Interfaces (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-Global.ql:15,8-72)
+ERROR: could not resolve module semmle.python.security.dataflow.new.internal.dataflow.Diffsets (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-Global.ql:16,8-70)
+ERROR: could not resolve module semmle.python.security.dataflow.new.internal.dataflow.Barriers (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-Global.ql:17,8-70)
+ERROR: could not resolve module semmle.python.security.dataflow.new.internal.dataflow.BarrierOps (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-Global.ql:18,8-72)
+ERROR: could not resolve module semmle.python.security.dataflow.new.internal.dataflow.PrintNode (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-Global.ql:19,8-71)
+ERROR: could not resolve module semmle.python.security.dataflow.new.internal.dataflow.incremental.IncrementalConfiguration (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-Global.ql:20,8-98)
+ERROR: could not resolve module semmle.python.security.dataflow.new.internal.dataflow.incremental.FlowDiff (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-Global.ql:21,8-82)
+ERROR: could not resolve module semmle.python.security.dataflow.new.internal.dataflow.incremental.FlowIncremental (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-Global.ql:22,8-89)
+
+Executing QL files:  34%|███▍      | 23/68 [22:52<43:10, 57.56s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-regen_golden_master.ql -> decode 失败: A fatal error occurred: Cannot determine with result set to use. Use --result-set to choose one of: edges, nodes, subpaths.
+
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql.
+ERROR: could not parse type name (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,753-759)
+ERROR: no viable parse for input 'semmle.', expecting one of : 'boolean', 'class', 'newtype', 'date', 'float', 'from', 'import', 'int', 'module', 'predicate', 'select', 'string', 'where', Lowerid, Upperid, Atlowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,501-507)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,564-565)
+ERROR: unexpected input 'PathInjectionFlow' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,618-635)
+ERROR: unexpected input 'PathInjectionFlow' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,651-668)
+ERROR: unexpected input ',' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,685-686)
+ERROR: unexpected input 'PathInjectionFlow' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,725-742)
+ERROR: missing one of: Upperid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,744-752)
+ERROR: unexpected input ',' expecting one of: '::' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,759-760)
+ERROR: unexpected input 'select' expecting one of: '=', ';', '{' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,766-772)
+ERROR: could not resolve module pythonimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,488-500)
+ERROR: could not resolve type PathInjectionQueryimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,533-557)
+ERROR: could not resolve type DataFlowimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,603-617)
+ERROR: could not resolve module PathInjectionFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,618-635)
+ERROR: could not resolve module PathInjectionFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,651-668)
+ERROR: could not resolve module PathInjectionFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,687-704)
+ERROR: could not resolve module PathInjectionFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,725-742)
+ERROR: could not resolve type  (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,753-759)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,558-564)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,618-635)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,651-668)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,679-685)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,715-724)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,744-752)
+ERROR: could not resolve variable sink (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,773-777)
+ERROR: could not resolve variable source (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,789-795)
+ERROR: could not resolve variable sink (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,797-801)
+ERROR: could not resolve variable source (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,833-839)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,618-650)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,651-678)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,687-714)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,725-744)
+WARNING: unused variable 'sink' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,761-765)
+ERROR: predicate () conflicts with predicate () from CWE-22-reposync.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,618-635)
+ERROR: predicate () conflicts with predicate () from CWE-22-reposync.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-reposync.ql:1,651-668)
+
+Executing QL files:  37%|███▋      | 25/68 [23:14<24:39, 34.40s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-rest_fs_access.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-rest_fs_access.ql.
+ERROR: could not resolve module semmle.python.security.dataflow.new.internal.DataFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-rest_fs_access.ql:14,8-61)
+
+Executing QL files:  38%|███▊      | 26/68 [24:17<29:54, 42.72s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-s3.ql -> 107 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-SConscript.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-SConscript.ql.
+ERROR: could not resolve module semmle.python.security.dataflow.new.internal.DataFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-SConscript.ql:21,8-61)
+ERROR: could not resolve module semmle.python.security.dataflow.PathInjectionAnalysis (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-SConscript.ql:23,8-61)
+
+Executing QL files:  41%|████      | 28/68 [24:49<19:21, 29.04s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-verify.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-verify.ql.
+ERROR: could not resolve module semmle.python.security.dataflow.new.internal.DataFlowInternal (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-verify.ql:14,8-69)
+ERROR: could not resolve module semmle.python.security.dataflow.new.internal.DataFlowConfig (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-verify.ql:15,8-67)
+ERROR: could not resolve type DataFlow::TypeTracker::Config (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-verify.ql:17,76-105)
+ERROR: could not resolve predicate config/0 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-verify.ql:22,12-41)
+
+Executing QL files:  43%|████▎     | 29/68 [25:05<16:23, 25.22s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-xhu.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-xhu.ql.
+ERROR: unexpected input '/' expecting one of: <EOF>, 'as', 'boolean', 'class', 'newtype', 'date', 'float', 'from', 'import', 'int', 'module', 'predicate', 'select', 'string', 'where', '.', '::', Lowerid, Upperid, Atlowerid, '/**' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-xhu.ql:17,43-44)
+ERROR: could not resolve module semmle.python.security.dataflow.new (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-xhu.ql:17,8-43)
+ERROR: query module does not have any queries in scope (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-22-xhu.ql:1,1-1)
+
+Executing QL files:  44%|████▍     | 30/68 [25:54<20:26, 32.28s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-255-engine.ql -> 0 漏洞
+Executing QL files:  46%|████▌     | 31/68 [26:59<25:58, 42.13s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-264-cache.ql -> 6 漏洞
+Executing QL files:  47%|████▋     | 32/68 [27:57<28:14, 47.08s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-264-kvs.ql -> 24 漏洞
+Executing QL files:  49%|████▊     | 33/68 [28:55<29:22, 50.35s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-264-quota.ql -> 24 漏洞
+Executing QL files:  50%|█████     | 34/68 [29:01<20:57, 37.00s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql.
+ERROR: no viable parse for input 'external.', expecting one of : 'boolean', 'class', 'newtype', 'date', 'float', 'from', 'import', 'int', 'module', 'predicate', 'select', 'string', 'where', Lowerid, Upperid, Atlowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,382-390)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,407-408)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,461-462)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,513-514)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,574-575)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,634-635)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,697-698)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,757-758)
+ERROR: extraneous input 'import' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,805-811)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,818-819)
+ERROR: extraneous input 'import' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,877-883)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,890-891)
+ERROR: extraneous input 'import' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,945-951)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,958-959)
+ERROR: extraneous input 'import' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,1013-1019)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,1026-1027)
+ERROR: unexpected input '<EOF>' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,1375-1376)
+ERROR: could not resolve module pythonimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,369-381)
+ERROR: could not resolve type VCSimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,391-400)
+ERROR: could not resolve type FileAccessQueryimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,433-454)
+ERROR: could not resolve type TaintTrackingimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,487-506)
+ERROR: could not resolve type IOBindingimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,552-567)
+ERROR: could not resolve type DataFlowimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,613-627)
+ERROR: could not resolve type WindowsPathimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,673-690)
+ERROR: could not resolve type WindowsPathGuardsimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,727-750)
+ERROR: could not resolve type RemoteFlowprivate (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,787-804)
+ERROR: could not resolve type RemoteModuleprivate (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,857-876)
+ERROR: could not resolve type RemoteToLocalFlowprivate (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,920-944)
+ERROR: could not resolve type WindowsPathGuardsprivate (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,988-1012)
+ERROR: could not resolve type WindowsPathAnalysis (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,1056-1075)
+ERROR: query module does not have any queries in scope (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,1-1)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,401-407)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,455-461)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,507-513)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,568-574)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,628-634)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,691-697)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,751-757)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,805-818)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,877-890)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,945-958)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,1013-1026)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,1375-1375)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,401-407)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,455-461)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,507-513)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,568-574)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,628-634)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,691-697)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,751-757)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,805-818)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,877-890)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,945-958)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1, predicate semmle() from CWE-59-keycloak_cli.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-keycloak_cli.ql:1,1013-1026)
+
+Executing QL files:  51%|█████▏    | 35/68 [29:07<15:13, 27.70s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql.
+ERROR: could not parse type name (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,324-330)
+ERROR: no viable parse for input 'semmle.', expecting one of : 'boolean', 'class', 'newtype', 'date', 'float', 'from', 'import', 'int', 'module', 'predicate', 'select', 'string', 'where', Lowerid, Upperid, Atlowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,132-138)
+ERROR: unexpected input 'PathInjectionFlow' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,189-206)
+ERROR: unexpected input 'PathInjectionFlow' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,222-239)
+ERROR: unexpected input ',' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,256-257)
+ERROR: unexpected input 'PathInjectionFlow' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,296-313)
+ERROR: missing one of: Upperid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,315-323)
+ERROR: unexpected input ',' expecting one of: '::' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,330-331)
+ERROR: unexpected input 'select' expecting one of: '=', ';', '{' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,337-343)
+ERROR: could not resolve module pythonimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,119-131)
+ERROR: could not resolve type PathInjectionQueryimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,164-188)
+ERROR: could not resolve module PathInjectionFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,189-206)
+ERROR: could not resolve module PathInjectionFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,222-239)
+ERROR: could not resolve module PathInjectionFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,258-275)
+ERROR: could not resolve module PathInjectionFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,296-313)
+ERROR: could not resolve type  (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,324-330)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,189-206)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,222-239)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,250-256)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,286-295)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,315-323)
+ERROR: could not resolve variable sink (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,344-348)
+ERROR: could not resolve variable source (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,360-366)
+ERROR: could not resolve variable sink (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,368-372)
+ERROR: could not resolve variable source (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,393-399)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,189-221)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,222-249)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,258-285)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,296-315)
+WARNING: unused variable 'sink' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,332-336)
+ERROR: predicate () conflicts with predicate () from CWE-59-zone.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,189-206)
+ERROR: predicate () conflicts with predicate () from CWE-59-zone.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-59-zone.ql:1,222-239)
+
+Executing QL files:  53%|█████▎    | 36/68 [29:13<11:17, 21.18s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-74-registration.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-74-registration.ql.
+ERROR: query module does not have any queries in scope (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-74-registration.ql:1,1-1)
+
+Executing QL files:  54%|█████▍    | 37/68 [29:19<08:33, 16.56s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-74-ticketer.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-74-ticketer.ql.
+ERROR: query module does not have any queries in scope (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-74-ticketer.ql:1,1-1)
+
+Executing QL files:  56%|█████▌    | 38/68 [29:25<06:40, 13.35s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-74-_newclient.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-74-_newclient.ql.
+ERROR: query module does not have any queries in scope (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-74-_newclient.ql:1,1-1)
+
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-77-allow_execmod.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-77-allow_execmod.ql.
+ERROR: unexpected input '<EOF>' expecting one of: 'any', 'avg', 'boolean', 'count', 'date', 'exists', 'false', 'float', 'forall', 'forex', 'if', 'int', 'max', 'min', 'not', 'none', 'rank', 'result', 'strictcount', 'strictsum', 'strictconcat', 'concat', 'string', 'sum', 'super', 'this', 'true', '-', '(', '[', '+', Lowerid, Upperid, Atlowerid, Integer, Float, String (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-77-allow_execmod.ql:28,93-94)
+
+Executing QL files:  59%|█████▉    | 40/68 [29:56<06:47, 14.56s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-77-guibase.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-77-guibase.ql.
+ERROR: unexpected input '<EOF>' expecting one of: 'any', 'avg', 'boolean', 'count', 'date', 'exists', 'false', 'float', 'forall', 'forex', 'if', 'int', 'max', 'min', 'not', 'none', 'rank', 'result', 'strictcount', 'strictsum', 'strictconcat', 'concat', 'string', 'sum', 'super', 'this', 'true', '-', '(', '[', '+', Lowerid, Upperid, Atlowerid, Integer, Float, String (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-77-guibase.ql:29,93-94)
+
+Executing QL files:  60%|██████    | 41/68 [30:02<05:22, 11.94s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-77-signature.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-77-signature.ql.
+ERROR: query module does not have any queries in scope (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-77-signature.ql:1,1-1)
+
+Executing QL files:  62%|██████▏   | 42/68 [30:18<05:39, 13.06s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-78-apkleaks-cwe-78.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-78-apkleaks-cwe-78.ql.
+ERROR: unexpected input '<EOF>' expecting one of: 'any', 'avg', 'boolean', 'count', 'date', 'exists', 'false', 'float', 'forall', 'forex', 'if', 'int', 'max', 'min', 'not', 'none', 'rank', 'result', 'strictcount', 'strictsum', 'strictconcat', 'concat', 'string', 'sum', 'super', 'this', 'true', '-', '(', '[', '+', Lowerid, Upperid, Atlowerid, Integer, Float, String (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-78-apkleaks-cwe-78.ql:33,93-94)
+
+Executing QL files:  63%|██████▎   | 43/68 [31:16<11:03, 26.54s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-78-notifyplugin.ql -> 24 漏洞
+Executing QL files:  65%|██████▍   | 44/68 [31:32<09:22, 23.42s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-78-stix2misp.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-78-stix2misp.ql.
+ERROR: unexpected input '<EOF>' expecting one of: 'any', 'avg', 'boolean', 'count', 'date', 'exists', 'false', 'float', 'forall', 'forex', 'if', 'int', 'max', 'min', 'not', 'none', 'rank', 'result', 'strictcount', 'strictsum', 'strictconcat', 'concat', 'string', 'sum', 'super', 'this', 'true', '-', '(', '[', '+', Lowerid, Upperid, Atlowerid, Integer, Float, String (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-78-stix2misp.ql:33,93-94)
+
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-78-Trigger.ql -> 24 漏洞
+Executing QL files:  68%|██████▊   | 46/68 [33:30<15:15, 41.62s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-0047_rawhtmlblock.ql -> 25 漏洞
+Executing QL files:  69%|██████▉   | 47/68 [33:36<10:50, 30.99s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql.
+WARNING: QLDoc comment is not attached to any QL element (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,623-684)
+ERROR: no viable parse for input 'semmle.', expecting one of : 'boolean', 'class', 'newtype', 'date', 'float', 'from', 'import', 'int', 'module', 'predicate', 'select', 'string', 'where', Lowerid, Upperid, Atlowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,411-417)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,473-474)
+ERROR: extraneous input 'import' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,536-542)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,549-550)
+ERROR: extraneous input 'import' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,582-588)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,595-596)
+ERROR: unexpected input '/**' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,623-626)
+ERROR: could not resolve module pythonimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,398-410)
+ERROR: could not resolve type ReflectedXssQueryimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,443-466)
+ERROR: could not resolve type ReflectedXssFlowprivate (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,512-535)
+ERROR: could not resolve type XssFilterprivate (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,565-581)
+ERROR: could not resolve type ClientFilter (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,611-623)
+ERROR: query module does not have any queries in scope (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,1-1)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,467-473)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,536-549)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,582-595)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,623-626)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-79-api_routes.ql:1, predicate semmle() from CWE-79-api_routes.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,467-473)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-79-api_routes.ql:1, predicate semmle() from CWE-79-api_routes.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,536-549)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-79-api_routes.ql:1, predicate semmle() from CWE-79-api_routes.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-api_routes.ql:1,582-595)
+
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-app-cwe-79.ql -> 25 漏洞
+Executing QL files:  72%|███████▏  | 49/68 [35:35<14:27, 45.67s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-base-cwe-79.ql -> 25 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-chemcalc.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-chemcalc.ql.
+ERROR: no viable parse for input 'semmle.', expecting one of : 'boolean', 'class', 'newtype', 'date', 'float', 'from', 'import', 'int', 'module', 'predicate', 'select', 'string', 'where', Lowerid, Upperid, Atlowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-chemcalc.ql:1,328-334)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-chemcalc.ql:1,390-391)
+ERROR: unexpected input '<EOF>' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-chemcalc.ql:1,807-808)
+ERROR: could not resolve module pythonimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-chemcalc.ql:1,315-327)
+ERROR: could not resolve type ReflectedXssQueryimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-chemcalc.ql:1,360-383)
+ERROR: could not resolve type ReflectedXssFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-chemcalc.ql:1,429-445)
+ERROR: query module does not have any queries in scope (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-chemcalc.ql:1,1-1)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-chemcalc.ql:1,384-390)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-chemcalc.ql:1,807-807)
+
+Executing QL files:  75%|███████▌  | 51/68 [35:47<07:11, 25.40s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql.
+WARNING: QLDoc comment is not attached to any QL element (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,597-870)
+ERROR: no viable parse for input 'semmle.', expecting one of : 'boolean', 'class', 'newtype', 'date', 'float', 'from', 'import', 'int', 'module', 'predicate', 'select', 'string', 'where', Lowerid, Upperid, Atlowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,329-335)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,391-392)
+ERROR: extraneous input 'import' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,454-460)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,467-468)
+ERROR: unexpected input '/' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,492-493)
+ERROR: no viable parse for input 'semmle.', expecting one of : 'boolean', 'class', 'newtype', 'date', 'float', 'from', 'import', 'int', 'module', 'predicate', 'select', 'string', 'where', Lowerid, Upperid, Atlowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,552-558)
+ERROR: unexpected input '/' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,595-596)
+ERROR: could not resolve module pythonimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,316-328)
+ERROR: could not resolve module semmle.python.security.dataflow.BarrierGuardimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,501-551)
+ERROR: could not resolve type ReflectedXssQueryimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,361-384)
+ERROR: could not resolve type ReflectedXssFlowprivate (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,430-453)
+ERROR: could not resolve type XssFilter (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,483-492)
+ERROR: could not resolve type BarrierFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,584-595)
+ERROR: query module does not have any queries in scope (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,1-1)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,385-391)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,454-467)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,492-494)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,595-597)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-79-db-cwe-79.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,385-391)
+ERROR: predicate semmle() conflicts with predicate semmle() from CWE-79-db-cwe-79.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,454-467)
+ERROR: predicate () conflicts with predicate () from CWE-79-db-cwe-79.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,492-494)
+ERROR: predicate () conflicts with predicate () from CWE-79-db-cwe-79.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-db-cwe-79.ql:1,595-597)
+
+Executing QL files:  76%|███████▋  | 52/68 [36:46<09:29, 35.58s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-djblets_js.ql -> 25 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql.
+ERROR: could not parse type name (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,580-586)
+ERROR: no viable parse for input 'semmle.', expecting one of : 'boolean', 'class', 'newtype', 'date', 'float', 'from', 'import', 'int', 'module', 'predicate', 'select', 'string', 'where', Lowerid, Upperid, Atlowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,329-335)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,391-392)
+ERROR: unexpected input 'ReflectedXssFlow' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,449-465)
+ERROR: unexpected input 'ReflectedXssFlow' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,481-497)
+ERROR: unexpected input ',' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,514-515)
+ERROR: unexpected input 'ReflectedXssFlow' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,553-569)
+ERROR: missing one of: Upperid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,571-579)
+ERROR: unexpected input ',' expecting one of: '::' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,586-587)
+ERROR: unexpected input 'select' expecting one of: '=', ';', '{' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,593-599)
+ERROR: could not resolve module pythonimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,316-328)
+ERROR: could not resolve type ReflectedXssQueryimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,361-384)
+ERROR: could not resolve type ReflectedXssimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,430-448)
+ERROR: could not resolve module ReflectedXssFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,449-465)
+ERROR: could not resolve module ReflectedXssFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,481-497)
+ERROR: could not resolve module ReflectedXssFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,516-532)
+ERROR: could not resolve module ReflectedXssFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,553-569)
+ERROR: could not resolve type  (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,580-586)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,385-391)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,449-465)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,481-497)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,508-514)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,543-552)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,571-579)
+ERROR: could not resolve variable sink (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,600-604)
+ERROR: could not resolve variable source (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,616-622)
+ERROR: could not resolve variable sink (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,624-628)
+ERROR: could not resolve variable source (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,682-688)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,449-480)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,481-507)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,516-542)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,553-571)
+WARNING: unused variable 'sink' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,588-592)
+ERROR: predicate () conflicts with predicate () from CWE-79-fckdialog.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,449-465)
+ERROR: predicate () conflicts with predicate () from CWE-79-fckdialog.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-fckdialog.ql:1,481-497)
+
+Executing QL files:  79%|███████▉  | 54/68 [36:58<04:47, 20.51s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql.
+ERROR: could not parse type name (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,584-590)
+ERROR: no viable parse for input 'semmle.', expecting one of : 'boolean', 'class', 'newtype', 'date', 'float', 'from', 'import', 'int', 'module', 'predicate', 'select', 'string', 'where', Lowerid, Upperid, Atlowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,329-335)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,391-392)
+ERROR: unexpected input 'ReflectedXssFlow' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,453-469)
+ERROR: unexpected input 'ReflectedXssFlow' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,485-501)
+ERROR: unexpected input ',' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,518-519)
+ERROR: unexpected input 'ReflectedXssFlow' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,557-573)
+ERROR: missing one of: Upperid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,575-583)
+ERROR: unexpected input ',' expecting one of: '::' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,590-591)
+ERROR: unexpected input 'select' expecting one of: '=', ';', '{' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,597-603)
+ERROR: could not resolve module pythonimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,316-328)
+ERROR: could not resolve type ReflectedXssQueryimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,361-384)
+ERROR: could not resolve type ClientSideExportimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,430-452)
+ERROR: could not resolve module ReflectedXssFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,453-469)
+ERROR: could not resolve module ReflectedXssFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,485-501)
+ERROR: could not resolve module ReflectedXssFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,520-536)
+ERROR: could not resolve module ReflectedXssFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,557-573)
+ERROR: could not resolve type  (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,584-590)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,385-391)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,453-469)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,485-501)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,512-518)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,547-556)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,575-583)
+ERROR: could not resolve variable sink (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,604-608)
+ERROR: could not resolve variable source (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,620-626)
+ERROR: could not resolve variable sink (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,628-632)
+ERROR: could not resolve variable source (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,686-692)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,453-484)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,485-511)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,520-546)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,557-575)
+WARNING: unused variable 'sink' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,592-596)
+ERROR: predicate () conflicts with predicate () from CWE-79-gravatars.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,453-469)
+ERROR: predicate () conflicts with predicate () from CWE-79-gravatars.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-gravatars.ql:1,485-501)
+
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql -> 执行失败: Compiling query plan for C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql.
+ERROR: no viable parse for input 'semmle.', expecting one of : 'boolean', 'class', 'newtype', 'date', 'float', 'from', 'import', 'int', 'module', 'predicate', 'select', 'string', 'where', Lowerid, Upperid, Atlowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,334-340)
+ERROR: unexpected input '.' expecting one of: '=', '(' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,396-397)
+ERROR: unexpected input 'ReflectedXssFlow' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,441-457)
+ERROR: unexpected input '<EOF>' expecting one of: Lowerid (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,468-469)
+ERROR: could not resolve module pythonimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,321-333)
+ERROR: could not resolve type ReflectedXssQueryimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,366-389)
+ERROR: could not resolve type DataFlowimport (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,426-440)
+ERROR: could not resolve module ReflectedXssFlow (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,441-457)
+ERROR: query module does not have any queries in scope (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,1-1)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,390-396)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,441-457)
+ERROR: predicate requires a body (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,468-468)
+WARNING: unused variable 'result' (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,441-468)
+ERROR: predicate () conflicts with predicate () from CWE-79-htmlserializer.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,441-457)
+ERROR: predicate () conflicts with predicate () from CWE-79-htmlserializer.ql:1 (C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-htmlserializer.ql:1,468-468)
+
+Executing QL files:  82%|████████▏ | 56/68 [38:03<05:46, 28.86s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-httphandler-cwe-79.ql -> 25 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-LICENSE.ql -> 25 漏洞
+Executing QL files:  85%|████████▌ | 58/68 [40:01<07:22, 44.28s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-notebookapp.ql -> 25 漏洞
+Executing QL files:  87%|████████▋ | 59/68 [41:00<07:18, 48.77s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-victim.ql -> 25 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-79-ZRPythonExpr.ql -> 25 漏洞
+Executing QL files:  90%|████████▉ | 61/68 [42:58<06:17, 53.90s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-88-apkleaks-cwe-88.ql -> 24 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-89-db-cwe-89.ql -> 0 漏洞
+Executing QL files:  93%|█████████▎| 63/68 [44:07<03:40, 44.04s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-89-executor.ql -> 0 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-89-mixins.ql -> 0 漏洞
+Executing QL files:  96%|█████████▌| 65/68 [45:16<01:56, 38.96s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-89-stats.ql -> 0 漏洞
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-89-victim.ql -> 0 漏洞
+Executing QL files:  99%|█████████▊| 67/68 [47:25<00:54, 54.80s/it]C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-93-bottle.ql -> decode 失败: A fatal error occurred: Cannot determine with result set to use. Use --result-set to choose one of: edges, nodes, subpaths.
+
+C:\CodeQL\ql\python\ql\src\Security\ql_outputs\CWE-94-report_mirror.ql -> 0 漏

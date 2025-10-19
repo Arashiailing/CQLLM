@@ -1,0 +1,245 @@
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\aug3_aug1_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\aug3_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\aug1_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\aug1_aug_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\aug3_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\aug3_aug1_aug_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\aug2_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql
+Compiling query plan for C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql.
+ERROR: could not resolve module codeql.util.suppression.AlertSuppression (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql:9,16-56)
+ERROR: could not resolve module semmle.python.Comment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql:11,16-37)
+ERROR: could not resolve module AS (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql:45,8-10)
+ERROR: could not resolve module P (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql:14,26-27)
+ERROR: could not resolve module P (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql:28,36-37)
+ERROR: could not resolve type SuppressionComment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql:51,38-56)
+ERROR: query module does not have any queries in scope (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql:1,1-1)
+ERROR: class 'AstNode' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql:14,7-14)
+ERROR: class 'SingleLineComment' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql:28,7-24)
+WARNING: unused class 'NoqaSuppressionComment' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql:51,7-29)
+WARNING: unused method 'getAnnotation' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql:58,19-32)
+WARNING: unused method 'covers' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\AlertSuppression.ql:61,22-28)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql
+Compiling query plan for C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql.
+ERROR: could not resolve module codeql.util.suppression.AlertSuppression (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql:8,16-56)
+ERROR: could not resolve module semmle.python.Comment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql:10,16-37)
+ERROR: could not resolve module AS (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql:58,8-10)
+ERROR: could not resolve module CommentModule (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql:13,26-39)
+ERROR: could not resolve module CommentModule (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql:34,36-49)
+ERROR: could not resolve type SuppressionComment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql:64,38-56)
+ERROR: query module does not have any queries in scope (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql:1,1-1)
+ERROR: class 'AstNode' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql:13,7-14)
+ERROR: class 'SingleLineComment' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql:34,7-24)
+WARNING: unused class 'NoqaSuppressionComment' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql:64,7-29)
+WARNING: unused method 'getAnnotation' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql:71,19-32)
+WARNING: unused method 'covers' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_AlertSuppression.ql:74,22-28)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug3_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug3_aug1_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug2_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql
+Compiling query plan for C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql.
+ERROR: could not resolve module codeql.util.suppression.AlertSuppression (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql:8,16-56)
+ERROR: could not resolve module semmle.python.Comment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql:10,16-37)
+ERROR: could not resolve module SuppressionHelper (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql:44,8-25)
+ERROR: could not resolve module CommentHandler (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql:13,32-46)
+ERROR: could not resolve module CommentHandler (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql:27,36-50)
+ERROR: could not resolve type SuppressionComment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql:50,35-53)
+ERROR: could not resolve predicate hasLocationInfo/5 (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql:65,5-20)
+ERROR: query module does not have any queries in scope (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql:1,1-1)
+ERROR: class 'PythonAstNode' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql:13,7-20)
+ERROR: class 'SingleLineComment' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql:27,7-24)
+WARNING: unused class 'NoqaStyleSuppressor' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql:50,7-26)
+WARNING: unused method 'getAnnotation' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql:58,19-32)
+WARNING: unused method 'covers' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augb_aug1_aug_aug_AlertSuppression.ql:61,22-28)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug1_aug_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql
+Compiling query plan for C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql.
+ERROR: could not resolve module codeql.util.suppression.AlertSuppression (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql:9,16-56)
+ERROR: could not resolve module semmle.python.Comment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql:11,16-37)
+ERROR: could not resolve module AS (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql:45,8-10)
+ERROR: could not resolve module P (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql:14,27-28)
+ERROR: could not resolve module P (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql:28,32-33)
+ERROR: could not resolve type SuppressionComment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql:51,38-56)
+ERROR: query module does not have any queries in scope (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql:1,1-1)
+ERROR: class 'CodeNode' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql:14,7-15)
+ERROR: class 'InlineComment' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql:28,7-20)
+WARNING: unused class 'NoqaSuppressionComment' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql:51,7-29)
+WARNING: unused method 'getAnnotation' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql:59,19-32)
+WARNING: unused method 'covers' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_AlertSuppression.ql:62,22-28)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug3_aug1_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug3_aug1_aug_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug3_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_augb_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_augb_aug3_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql
+Compiling query plan for C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql.
+ERROR: could not resolve module codeql.util.suppression.AlertSuppression (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql:8,16-56)
+ERROR: could not resolve module semmle.python.Comment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql:10,16-37)
+ERROR: could not resolve module AlertSuppUtil (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql:42,8-21)
+ERROR: could not resolve module PyComment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql:13,26-35)
+ERROR: could not resolve module PyComment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql:26,36-45)
+ERROR: could not resolve type SuppressionComment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql:48,38-56)
+ERROR: query module does not have any queries in scope (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql:1,1-1)
+ERROR: class 'AstNode' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql:13,7-14)
+ERROR: class 'SingleLineComment' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql:26,7-24)
+WARNING: unused class 'NoqaSuppressionComment' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql:48,7-29)
+WARNING: unused method 'getAnnotation' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql:55,19-32)
+WARNING: unused method 'covers' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug2_aug_AlertSuppression.ql:58,22-28)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql
+Compiling query plan for C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql.
+ERROR: could not resolve module codeql.util.suppression.AlertSuppression (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql:9,16-56)
+ERROR: could not resolve module semmle.python.Comment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql:11,16-37)
+ERROR: could not resolve module AS (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql:43,8-10)
+ERROR: could not resolve module P (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql:14,26-27)
+ERROR: could not resolve module P (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql:27,36-37)
+ERROR: could not resolve type SuppressionComment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql:49,38-56)
+ERROR: query module does not have any queries in scope (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql:1,1-1)
+ERROR: class 'AstNode' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql:14,7-14)
+ERROR: class 'SingleLineComment' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql:27,7-24)
+WARNING: unused class 'NoqaSuppressionComment' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql:49,7-29)
+WARNING: unused method 'getAnnotation' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql:56,19-32)
+WARNING: unused method 'covers' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augc_aug_AlertSuppression.ql:59,22-28)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug3_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug3_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug2_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql
+Compiling query plan for C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql.
+ERROR: could not resolve module codeql.util.suppression.AlertSuppression (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql:8,16-56)
+ERROR: could not resolve module semmle.python.Comment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql:10,16-37)
+ERROR: could not resolve module AlertSuppressionUtil (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql:44,8-28)
+ERROR: could not resolve module CommentProcessor (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql:13,38-54)
+ERROR: could not resolve module CommentProcessor (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql:27,42-58)
+ERROR: could not resolve type SuppressionComment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql:50,38-56)
+ERROR: query module does not have any queries in scope (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql:1,1-1)
+ERROR: class 'PythonSyntaxElement' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql:13,7-26)
+ERROR: class 'PythonSingleLineComment' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql:27,7-30)
+WARNING: unused class 'NoqaSuppressionComment' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql:50,7-29)
+WARNING: unused method 'getAnnotation' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql:58,19-32)
+WARNING: unused method 'covers' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_aug1_aug_aug_AlertSuppression.ql:61,22-28)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augd_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql
+Compiling query plan for C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql.
+ERROR: could not resolve module codeql.util.suppression.AlertSuppression (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql:10,16-56)
+ERROR: could not resolve module semmle.python.Comment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql:12,16-37)
+ERROR: could not resolve module AS (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql:75,8-10)
+ERROR: could not resolve module PythonComment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql:18,36-49)
+ERROR: could not resolve module PythonComment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql:51,26-39)
+ERROR: could not resolve type SuppressionComment (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql:82,38-56)
+ERROR: query module does not have any queries in scope (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql:1,1-1)
+ERROR: class 'SingleLineComment' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql:18,7-24)
+ERROR: class 'AstNode' must extend or implement at least one type (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql:51,7-14)
+WARNING: unused class 'NoqaSuppressionComment' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql:82,7-29)
+WARNING: unused method 'getAnnotation' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql:96,19-32)
+WARNING: unused method 'covers' (C:\code\CQLLM\v2.0\数据增强\QL_for_Python\augd_augb_aug3_aug1_AlertSuppression.ql:107,22-28)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\auge_aug3_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\auge_aug3_aug1_aug_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\auge_aug3_aug1_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------
+[FAIL] C:\code\CQLLM\v2.0\数据增强\QL_for_Python\auge_aug3_aug_AlertSuppression.ql
+A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at C:\code\CQLLM\CodeQL_for_db\db\db-python\default\cache\.lock
+(eventual cause: OverlappingFileLockException)
+------------------------------------------------------------

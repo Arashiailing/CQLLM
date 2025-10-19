@@ -1,0 +1,21 @@
+/**
+ * @name CWE-125: Out-of-bounds Read
+ * @description The product reads data past the end, or before the beginning, of the intended buffer.
+ * @kind path-problem
+ * @problem.severity error
+ * @precision high
+ * @security-severity 9.1
+ * @id py/ast
+ * @tags correctness
+ *       security
+ *       external/cwe/cwe-125
+ */
+
+import python
+import semmle.python.security.dataflow.PathInjectionQuery
+import PathInjectionFlow::PathGraph
+
+from PathInjectionFlow::PathNode source, PathInjectionFlow::PathNode sink
+where PathInjectionFlow::flowPath(source, sink)
+select sink.getNode(), source, sink, "This buffer operation depends on a $@.", source.getNode(),
+  "user-provided value"
